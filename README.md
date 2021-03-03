@@ -1,8 +1,17 @@
-# NLP_headlines
-Competition - Imperial NLP course
+# Assessing the funniness of news headlines
+Competition/Coursework - Imperial College NLP course
 
-## Overleaf link
-https://www.overleaf.com/9384985926tgnzbqpqrtyz
+We used two approaches for this challenge:
+The first, we every tool provided on internet (approach 1). The second, with no loaded models or embeddings (approach 2).
+
+## Approach 1
+For the approach 1, we used a BERT model, that we slightly modified and trained for our need. The code can be found in the file [nlp_approach1.ipynb](./nlp_approach1.ipynb).
+To run it, you need to make sure you have train.csv, dev.csv and test.csv in the same folder as the jupyter notebook.
+
+## Approach 2
+For the approach 2, we tried to be more creative: we associated an embedding of the headlines with some engineered features and passed it through a neural network. The code for this approach can be found in [nlp_approach2.ipynb](./nlp_approach2.ipynb). Similarly, you need to make sure you have train.csv, dev.csv and test.csv in the same folder as the jupyter notebook.
+
+
 
 ## Interesting articles
 ### Use BERT with PyTorch
