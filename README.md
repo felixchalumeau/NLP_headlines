@@ -2,7 +2,7 @@
 Competition/Coursework - Imperial College NLP course
 
 We used two approaches for this challenge:
-The first, we every tool provided on internet (approach 1). The second, with no loaded models or embeddings (approach 2).
+The first, with potentially every tool provided on internet (approach 1). The second, with no loaded models or embeddings (approach 2).
 
 ## Approach 1
 For the approach 1, we used a BERT model, that we slightly modified and trained for our need. The code can be found in the file [nlp_approach1.ipynb](./nlp_approach1.ipynb).
