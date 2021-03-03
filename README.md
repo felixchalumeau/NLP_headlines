@@ -6,7 +6,7 @@ The first, with potentially every tool provided on internet (approach 1). The se
 
 ## Approach 1
 For the approach 1, we used a BERT model, that we slightly modified and trained for our need. The code can be found in the file [nlp_approach1.ipynb](./nlp_approach1.ipynb).
-To run it, you need to make sure you have train.csv, dev.csv and test.csv in the same folder as the jupyter notebook. Those three files can be found in the folder [data_task1](./data_stask1).
+To run it, you need to make sure you have train.csv, dev.csv and test.csv in the same folder as the jupyter notebook. Those three files can be found in the folder [data_task1](./data_task1).
 
 ## Approach 2
 For the approach 2, we tried to be more creative: we associated an embedding of the headlines with some engineered features and passed it through a neural network. The code for this approach can be found in [nlp_approach2.ipynb](./nlp_approach2.ipynb). Similarly, you need to make sure you have train.csv, dev.csv and test.csv in the same folder as the jupyter notebook.
